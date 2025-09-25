@@ -57,7 +57,7 @@ function OptionsModal({
           onClick={() => setShowOptionsModal(false)}
         >
           <motion.div
-            className="bg-white p-4 sm:p-6 rounded-xl shadow-2xl w-full max-w-md mx-4 h-[70vh] flex flex-col"
+            className="bg-white p-4 sm:p-6 rounded-xl shadow-2xl w-full max-w-md mx-4 h-[80vh] flex flex-col"
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.8, opacity: 0 }}
